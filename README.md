@@ -12,7 +12,7 @@
   	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible"		content="IE=edge" />
-		<meta name="viewport"					        content="initial-scale=1, width=device-width" />
+		<meta name="viewport"				content="initial-scale=1, width=device-width" />
 
 ```
 
@@ -401,7 +401,7 @@ Open an issue or a pull request to suggest changes or additions.
 
 ## Author
 
-**[Josh Buchea](http://joshbuchea.com/)**
+**[Josh Buchea](http://joshbuchea.com/)** with **[Damir Sabirov](http://сабировдамир.рф/)**
 
 ## License
 
