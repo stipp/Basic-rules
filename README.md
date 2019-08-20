@@ -1,37 +1,36 @@
 # HEAD
 
-A collection of HTML head elements.
+Коллекция различных тегов для секции head (A collection of HTML head elements.)
 
-## Recommended Minimum
+## Стандартный минимум
 
-Below are the essential tags for basic, minimalist websites:
+Начинаем с этого
 
 ```html
-<meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Page Title</title>
+<!DOCTYPE html>
+<html lang="ru">
+  	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible"		content="IE=edge" />
+		<meta name="viewport"					        content="initial-scale=1, width=device-width" />
+
 ```
 
-## Elements
+## Элементы
 
 ``` html
 <title>Page Title</title>
-<!-- The <base> tag defines a base URL for all relative links in the document --> 
-<base href="https://example.com/page.html">
-<style>
-  body { color: red; }
-</style>
-<script src="script.js"></script>
+<script src="/js/script.js"></script>
+<link rel="stylesheet" href="/css/welcome.css?v=500" type="text/css" />
 ```
 
-## Meta Element
+## Мета элементы
 
 ``` html
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<!-- Первые 3 тега оставляем всегда в начале HTML, остальные в любом порядке после -->
 <meta name="application-name" content="Application Name">
 <meta name="keywords" content="your,keywords,here,comma,separated,no,spaces">
 <meta name="description" content="150 chars">
@@ -55,8 +54,7 @@ Below are the essential tags for basic, minimalist websites:
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
 ```
 
-### Not Recommended
-Below are the meta attributes which are not recommended for use:
+### Не рекомендуется к использованию
 
 ```html
 <!-- Used to declare the document language, but not well supported. Better to use <html lang=""> -->
